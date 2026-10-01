@@ -1,11 +1,21 @@
 {
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node src/sever.js",
+    "dev": "nodemon src/sever.js"
   },
   "dependencies": {
-    "express": "^4.22.1"
+    "express": "^4.22.3",
+    "file-type": "^16.5.4",
+    "multer": "^2.4.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.0"
-  }
+    "nodemon": "^3.1.14"
+  },
+  "name": "codespaces-express",
+  "description": "Welcome to your shiny new Codespace running Express! We've got everything fired up and running for you to explore Express.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
